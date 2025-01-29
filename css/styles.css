@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#productos .card {
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#productos .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Animación para el carrito */
+#carrito .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#carrito .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Asegúrate de que las imágenes sean responsivas */
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+/* Asegúrate de que el contenedor de productos sea responsivo */
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-md-4 {
+    padding: 0 15px;
+}
