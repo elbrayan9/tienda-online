@@ -1,11 +1,14 @@
 {
   "name": "tienda-online-1-brian-oviedo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda online con carrito de compras",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "brian oviedo",
   "license": "ISC"
 }
